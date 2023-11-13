@@ -54,7 +54,7 @@ function logMessage(state){
 async function postUrl(link){
     try{
         const requestObj = {
-            "url":'https://snapshort.com/'
+            "url":link
         };
         await fetch("https://url-shortener-service.p.rapidapi.com/shorten",
         {
