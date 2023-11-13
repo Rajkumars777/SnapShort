@@ -62,7 +62,7 @@ async function postUrl(link){
             headers: {
                 'Content-type': 'application/json;charset=utf-8',
                 "x-rapidapi-host": "url-shortener-service.p.rapidapi.com",
-		        "x-rapidapi-key": "04a1f72586mshc6316760c3ac7c2p168b5cjsn6034ad522b33",
+		        "x-rapidapi-key": "acf16ed00dmsh2016c025466b2cfp1ac140jsn0cbc86b79884",
             },
             body: JSON.stringify(requestObj)
         })
